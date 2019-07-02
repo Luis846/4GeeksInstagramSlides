@@ -3,7 +3,9 @@
 }
 body{
     margin: 0;
-    background: rgb(221, 218, 218);;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
 }
 .top-black {
     background: #000;
@@ -38,7 +40,7 @@ body{
 }
 
 .posts:hover{
-    box-shadow: 10px 5px 5px rgb(54, 50, 50);
+    box-shadow: 10px 5px 5px rgb(26, 25, 25);
 }
 
 .inner-title{
@@ -77,3 +79,17 @@ img{
 .end-post{
     margin-bottom: 6%;
 }
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
