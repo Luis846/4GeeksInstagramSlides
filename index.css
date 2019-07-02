@@ -29,6 +29,7 @@ body{
     background: #fff;
     width: 40%;
     margin: 0 auto;
+    box-shadow: 2px 5px 5px rgb(54, 50, 50);
     transition: box-shadow 0.5s ease;
     -webkit-transition: box-shadow 0.5s ease;
     -moz-transition: box-shadow 0.5s ease;
